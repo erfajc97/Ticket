@@ -1,0 +1,132 @@
+.ticket-calendar {
+    border-radius: 8px;
+    padding: 16px !important;
+}
+
+.ticket-calendar table thead {
+    height: 37px;
+}
+
+.ticket-calendar table thead th {
+    background-color: #626c7b;
+}
+
+.ticket-calendar table thead th {
+    color: #f3f3f3;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0;
+    padding-left: 12px !important;
+    border-right: 1px solid #bdbdbd;
+}
+
+.ticket-calendar table thead th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.ticket-calendar table thead th:last-child {
+    border-top-right-radius: 8px;
+    border-right: 0px;
+}
+
+.ticket-calendar.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date {
+    border-top: 0px;
+}
+
+.ticket-calendar table tbody tr>td {
+    border-top: 0px;
+    border-right: 1px solid #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.ticket-calendar table tbody tr td:last-child {
+    border-right: 0px;
+}
+
+.ticket-calendar table tbody tr:last-child td {
+    border-bottom: 0px;
+}
+
+.ticket-calendar .ant-picker-calendar-date-value {
+    text-align: left;
+    padding-left: 6px;
+    font-size: 18px;
+    color: #444;
+}
+
+.tickets-calendar__custom-header button {
+    border: none;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticket-calendar__header-date {
+    min-width: 151px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket-calendar__header-date span {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.ticket-calendar .ant-picker-calendar-date-content::-webkit-scrollbar {
+    width: 0px;
+}
+
+.ticket-calendar__badge-status .ant-badge-status-dot {
+    width: 11px;
+    height: 11px;
+}
+
+.ticket-drawer-details .ticket-drawer-header__time {
+    font-weight: 600;
+    color: #16a07f;
+    font-size: 20px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.ticket-drawer-details .ticket-drawer-header__time p {
+    margin: 0;
+}
+
+.ticket-drawer-details .ant-drawer-header {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    height: 43px;
+    border-bottom: 0px;
+}
+
+.ticket-drawer-details>div {
+    height: 100%;
+}
+
+.ticket-drawer-details .ant-drawer-header-title {
+    height: 100%;
+}
+
+.ticket-drawer-details .ant-drawer-header-title button {
+    display: none;
+}
+
+.ticket-drawer-details .ant-drawer-extra{
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 16px;
+}
+
+.ticket-drawer-details__container{
+    padding: 16px;
+
+}

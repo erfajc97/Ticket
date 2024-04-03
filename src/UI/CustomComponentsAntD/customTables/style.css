@@ -1,0 +1,109 @@
+/* Table */
+
+.custom-table-variant-1 .ant-table {
+    margin-top: 8px;
+    padding: 16px 24px;
+    background-color: #fff !important;
+    border-radius: 6px;
+}
+
+.custom-table-variant-1 .ant-table-header .ant-table-cell,
+.custom-table-variant-1 .ant-table-thead .ant-table-cell,
+.custom-ant-table .ant-table-header .ant-table-cell,
+.custom-ant-table .ant-table-thead>tr>th {
+    background: #fff !important;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+    color: #232323;
+    text-align: center;
+}
+
+.custom-table-variant-1 .ant-table-tbody,
+.custom-ant-table .ant-table-tbody {
+    background-color: #fff;
+}
+
+.custom-table-variant-1 .ant-table-row,
+.custom-ant-table .ant-table-row {
+    font-size: 12px;
+    font-weight: 400;
+    color: #232323;
+    text-align: center;
+}
+
+.custom-table-variant-1 .ant-table-row:nth-child(odd),
+.custom-ant-table .ant-table-row:nth-child(odd) {
+    background-color: #fff !important;
+}
+
+.custom-table-variant-1 .ant-table-row:nth-child(even),
+.custom-ant-table .ant-table-row:nth-child(even) {
+    background-color: #f3f3f3 !important;
+}
+
+.custom-table-variant-1 .ant-pagination.ant-table-pagination li {
+    display: none;
+}
+
+.custom-table-variant-1 .ant-pagination.ant-table-pagination li:first-child,
+.custom-table-variant-1 .ant-pagination.ant-table-pagination li:nth-child(2),
+.custom-table-variant-1 .ant-pagination.ant-table-pagination li:last-child {
+    display: block !important;
+}
+
+.custom-table-variant-1 .ant-pagination.ant-table-pagination li:nth-child(2) button,
+.custom-table-variant-1 .ant-pagination.ant-table-pagination li:last-child button {
+    background-color: transparent;
+    border: none;
+}
+
+
+
+.custom-table-variant-2 .ant-table-thead>tr>th:first-child {
+    border-top-left-radius: 8px !important;
+}
+
+.custom-table-variant-2 .ant-table-thead>tr>th:last-child {
+    border-top-right-radius: 8px !important;
+}
+
+.custom-table-variant-2 .ant-table-thead>tr>th {
+    background-color: #d5e7e7 !important;
+}
+
+.custom-table-variant-2 .ant-table-tbody {
+    background-color: #fff;
+}
+
+.custom-table-variant-2 .ant-table-cell {
+    font-size: 14px !important;
+}
+
+.custom-table-variant-2 .ant-table-thead .ant-table-cell {
+    font-size: 11px !important;
+}
+
+.custom-table-variant-2 .ant-table-row:nth-child(even) {
+    background-color: #fff !important;
+}
+
+.custom-table-variant-2 .ant-table-row:nth-child(odd) {
+    background-color: #f5f9f9 !important;
+}
+
+.custom-table-variant-2 .ant-pagination.ant-table-pagination li {
+    display: none;
+}
+
+.custom-table-variant-2 .ant-pagination.ant-table-pagination li:first-child,
+.custom-table-variant-2 .ant-pagination.ant-table-pagination li:nth-child(2),
+.custom-table-variant-2 .ant-pagination.ant-table-pagination li:last-child {
+    display: block !important;
+}
+
+.custom-table-variant-2 .ant-pagination.ant-table-pagination li:nth-child(2) button,
+.custom-table-variant-2 .ant-pagination.ant-table-pagination li:last-child button {
+    background-color: transparent;
+    border: none;
+}
